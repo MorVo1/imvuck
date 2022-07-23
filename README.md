@@ -1,5 +1,5 @@
 # imvuck
-## Copy of brainfuck language. Made in cpp
+## Copy of brainfuck language. Made in cpp. WORKS BETTER ON LINUX.
 If you want to use the interpreter you should:
 - If you're on windows: `g++ main.cpp -o imvuck.exe`, then `.\imvuck.exe (optional) filename` 
 - If you're on linux: `chmod +x imvuck.out`, then `./imvuck.out (optional) filename`

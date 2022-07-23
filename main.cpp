@@ -4,8 +4,8 @@
 using std::endl;
 
 int main(int argc, char** argv){
-    int arr[199] = { 0 };
-    int index = 99;
+    int arr[500] = { 0 };
+    int index = 249;
     std::string code;
     if(argc > 1){
         std::string line;

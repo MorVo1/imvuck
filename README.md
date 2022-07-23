@@ -5,4 +5,4 @@ If you want to use the interpreter you should:
 - If you're on linux: `chmod +x imvuck.out`, then `./imvuck.out (optional) filename`
 - Have fun!
 
-Programs in imvuck are just array with 500 indexes. Your pointer is in middle of the array. To move it forward use `>`, to move it backwards use `<`. To increment the value of value of current array index use `+`, to decrement `-`. `.` prints a char that has ascii code same as the value as value of current index in array.
+Programs in imvuck are just array with 500 indexes. Your pointer is in middle of the array. To move it forward use `>`, to move it backwards use `<`. To increment the value of value of current array index use `+`, to decrement `-`. `.` prints a char that has ascii code same as the value as value of current index in array. `[` starts the loop, `]` ends it.

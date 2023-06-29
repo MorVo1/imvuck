@@ -15,10 +15,10 @@ int interpret(std::string code) {
                 pointer++;
                 break;
             case '+':
-                *pointer += 1;
+                (*pointer)++;
                 break;
             case '-':
-                *pointer -= 1;
+                (*pointer)--;
                 break;
             case '.':
                 std::cout << *pointer;

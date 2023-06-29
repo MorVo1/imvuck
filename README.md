@@ -38,3 +38,4 @@ These are the characters you can use in imvuck:
 - [X] `+` and `-` characters.
 - [X] `.` and `!` characters.
 - [ ] `[` and `]` characters - loops.
+- [ ] `,` character.

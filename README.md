@@ -3,7 +3,7 @@
 ## How to use it?
 You need to follow these easy steps.
 
-First, put those commands into your terminal:
+First, put these commands into your terminal:
 
 ```    
 $ git clone https://github.com/morvo1/imvuck/

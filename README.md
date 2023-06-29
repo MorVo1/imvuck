@@ -34,7 +34,7 @@ These are the characters you can use in imvuck:
 ## Have fun using my interpreter!
 ---
 # TODO
-- [X] > and < characters.
-- [X] + and - characters.
-- [X] . and ! characters.
-- [ ] [ and ] characters - loops.
+- [X] `>` and `<` characters.
+- [X] `+` and `-` characters.
+- [X] `.` and `!` characters.
+- [ ] `[` and `]` characters - loops.

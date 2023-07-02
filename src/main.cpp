@@ -89,7 +89,6 @@ int main(int argc, char** argv) {
     }
 
     int exit_status = interpret(code, env);
-    std::cout << std::endl;
     
     switch (exit_status) {
         case 0:

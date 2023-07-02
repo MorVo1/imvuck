@@ -1,4 +1,4 @@
-CXXFLAGS = -pedantic -Wall -Wextra -Werror -g
+CXXFLAGS = -pedantic -Wall -Wextra -Werror -g -fsanitize=address
 SRC = ../src
 
 out: main.o

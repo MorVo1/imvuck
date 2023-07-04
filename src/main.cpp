@@ -1,11 +1,18 @@
 #include <iostream>
 #include <fstream>
+#include <sstream>
 
 struct Environment  {
     char array[1'000'000] { 0 };
     char* cell = array;
     char* instruction = 0;
 };
+
+std::string slurp(std::ifstream& in) {
+    std::ostringstream sstr;
+    sstr << in.rdbuf();
+    return sstr.str();
+}
 
 void go_to_closing_bracket(Environment &env) {
     int balance = 1;
@@ -84,9 +91,7 @@ int main(int argc, char** argv) {
         return -4;
     }
 
-    while (std::getline(file, line)){
-        code += line;
-    }
+    code = slurp(file);
 
     int exit_status = interpret(code, env);
     
